@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Herbario Digital de Plantas de México</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<header class="header-principal">
+    
+    <img src="img/uatx.png" alt="Logo UATx" class="logo izquierda">
+
+    <div class="titulo-header">
+        <h1>Herbario Digital de Plantas de México</h1>
+        <p class="subtitulo">Universidad Autónoma de Tlaxcala</p>
+    </div>
+
+    <div class="logos-derecha">
+        <img src="img/agrobio.png" alt="Logo Facultad" class="logo">
+        <img src="img/biologia.png" alt="Logo Licenciatura" class="logo">
+    </div>
+
+</header>
+
+<nav class="navbar">
+    <ul class="menu">
+        <li><a href="index.html">Inicio</a></li>
+
+        <li class="submenu">
+            <a href="briofitas/index_briofitas.html">Briofitas ▾</a>
+            <ul class="dropdown">
+                <li><a href="briofitas/musgos.html">Musgos</a></li>
+                <li><a href="briofitas/hepaticas.html">Hepáticas</a></li>
+                <li><a href="briofitas/antocerotes.html">Antocerotes</a></li>
+            </ul>
+        </li>
+    </ul>
+</nav>
+
+
+<main>
+
+<section class="card horizontal">
+    <div class="image-container">
+        <img src="img/plantas_intro.png" alt="Plantas terrestres">
+    </div>
+
+    <div class="text-container">
+        <h2>Introducción</h2>
+
+        <p>
+            Las plantas terrestres constituyen uno de los grupos más relevantes en la evolución biológica, 
+            ya que permitieron la transformación de los ecosistemas continentales y el establecimiento 
+            de redes ecológicas complejas. Dentro de este conjunto se incluyen las embriófitas, 
+            caracterizadas por la protección del embrión y la alternancia de generaciones, así como 
+            las pteridofitas, plantas vasculares sin semilla que desarrollaron tejidos conductores 
+            especializados como el xilema y el floema.
+
+            En México, estos grupos presentan una amplia diversidad y desempeñan funciones ecológicas 
+            esenciales como la regulación del ciclo hídrico, la formación y estabilización del suelo, 
+            la captura de carbono y el mantenimiento de la biodiversidad en distintos ecosistemas.
+        </p>
+
+        <!-- BOTÓN CENTRADO CON FLECHA -->
+        <div class="referencias-container">
+            <button class="btn-toggle" onclick="toggleReferencias()">
+                Referencias 
+                <span id="flecha" class="flecha">&#9662;</span>
+            </button>
+
+            <div id="referencias" class="referencias-box">
+                <ul>
+                    <li>
+                        Delgadillo-Moya, C., Escolástico, D. A., Hernández-Rodríguez, E., 
+                        Herrera-Paniagua, P., Peña-Retes, P., & Juárez-Martínez, C. (2022). 
+                        <i>Manual de Briofitas</i> (3ra ed.). Instituto de Biología, 
+                        Universidad Nacional Autónoma de México.
+                    </li>
+
+                    <li>
+                        Glime, J. M. (2007). 
+                        <i>Utilidad económica y ética de las briófitas</i> 
+                        (Traducción de J. Cuvertino). Michigan Technological University.
+                        <br><br>
+                        <a href="https://www.musgosdechile.cl/glime_usos_espanol_2ed.pdf" 
+                           target="_blank" 
+                           class="link-referencia">
+                           Ver documento completo (PDF)
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="card horizontal objetivo">
+    <div class="image-container">
+        <img src="img/img_obj.png" alt="Objetivo">
+    </div>
+    <div class="text-container">
+        <h2>Objetivo</h2>
+        <p>
+            Crear un catálogo digital interactivo de plantas mexicanas que incluya imágenes, 
+            coordenadas geográficas, ubicación, recolector, fotógrafo, nombre científico 
+            y descripción morfológica, organizadas de acuerdo con su clasificación taxonómica.
+        </p>
+    </div>
+</section>
+
+<section class="card">
+    <h2>Secciones del Herbario</h2>
+    <ul>
+        <li>Briofitas</li>
+        <li>Pteridofitas</li>
+    </ul>
+</section>
+
+<section class="card">
+    <h2>Integrantes</h2>
+    <ul>
+        <li>Yahir Meneses Pérez</li>
+        <li>Frida G. Ramirez Aguilar</li>
+        <li>Reyna Elizabeth Rodríguez Orduña</li>
+        <li>Ángel Eduardo Vázquez Zarate</li>
+        <li>Bryan Carrasco Rodriguez</li>
+    </ul>
+</section>
+
+</main>
+
+<footer>
+    <p>© 2026 Herbario Digital de Plantas de México</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
