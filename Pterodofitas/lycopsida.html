@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Pteropsida | Herbario Digital</title>
+    <link rel="stylesheet" href="../styles.css">
+</head>
+<body>
+
+<!-- ================= HEADER ================= -->
+<header class="header-principal">
+    <img src="../img/uatx.png" alt="Logo UATx" class="logo izquierda">
+
+    <div class="titulo-header">
+        <h1>Pteropsida</h1>
+        <p class="subtitulo">Herbario Digital</p>
+    </div>
+
+    <div class="logos-derecha">
+        <img src="../img/agrobio.png" alt="Logo Facultad" class="logo">
+        <img src="../img/biologia.png" alt="Logo Licenciatura" class="logo">
+    </div>
+</header>
+
+<!-- ================= NAVBAR ================= -->
+<nav class="navbar">
+    <ul class="menu">
+        <li><a href="../index.html">Inicio</a></li>
+
+
+
+        <li class="submenu">
+            <a href="../briofitas/index_briofitas.html">Briofitas ▾</a>
+            <ul class="dropdown">
+                <li><a href="../briofitas/musgos.html">Musgos</a></li>
+                <li><a href="../briofitas/hepaticas.html">Hepáticas</a></li>
+                <li><a href="../briofitas/antocerotes.html">Antocerotes</a></li>
+            </ul>
+        </li>
+
+        
+         <li class="submenu">
+            <a href="../Pterodofitas/index_ptero.html">Pteridofitas ▾</a>
+            <ul class="dropdown">
+                <li><a href="pteropsida.html">Pteropsida</a></li>
+                <li><a href="sphenopsida.html">Sphenopsida</a></li>
+                <li><a href="lycopsida.html">Lycopsida</a></li>
+                <li><a href="psilopsida.html">Psilopsida</a></li>
+            </ul>
+        </li>
+        
+    </ul>
+</nav>
+
+<!-- ================= MAIN ================= -->
+<main>
+
+    <!-- BUSCADOR -->
+    <div class="busqueda-container">
+        <input type="text" id="busqueda" placeholder="Buscar especie...">
+    </div>
+
+    <!-- CATALOGO -->
+    <div class="catalogo">
+
+        <!-- TARJETA DE EJEMPLO -->
+        <div class="tarjeta-especie">
+            <div class="imagen">
+                <img src="../img/pteropsida_ejemplo.png" alt="Nombre especie">
+            </div>
+            <div class="datos">
+                <h2><em>Nombre científico</em></h2>
+                <p><strong>Ubicación:</strong> Lugar de colecta</p>
+                <p><strong>Coordenadas:</strong> Latitud, Longitud</p>
+                <p><strong>Fuente:</strong> Fuente de referencia</p>
+                <p><strong>Colectó:</strong> Nombre del colector</p>
+                <p>Descripción morfológica y detalles interesantes de la especie.</p>
+            </div>
+        </div>
+
+        <!-- Puedes duplicar la tarjeta tantas veces como especies tengas -->
+
+    </div>
+</main>
+
+<!-- ================= FOOTER ================= -->
+<footer>
+    <p>© 2026 Herbario Digital de Pteridofitas de México</p>
+</footer>
+
+<script src="../script.js"></script>
+</body>
+</html>
