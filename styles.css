@@ -407,3 +407,36 @@ footer {
     transform: translateY(-2px);
     box-shadow: 0 6px 15px rgba(0,0,0,0.2);
 }
+
+/* ===== BLOQUE INFORMATIVO UNIFICADO ===== */
+
+.ptero-page .bloque-informativo {
+    padding: 40px;
+}
+
+.ptero-page .sub-seccion {
+    margin-bottom: 35px;
+}
+
+.ptero-page .sub-seccion:last-child {
+    margin-bottom: 0;
+}
+
+.ptero-page .sub-seccion h2 {
+    margin-bottom: 15px;
+}
+
+/* Mejor espaciado interno */
+.ptero-page .sub-seccion p {
+    margin-bottom: 12px;
+    line-height: 1.6;
+}
+
+.ptero-page .sub-seccion ol,
+.ptero-page .sub-seccion ul {
+    padding-left: 20px;
+}
+
+.ptero-page .sub-seccion li {
+    margin-bottom: 10px;
+}
