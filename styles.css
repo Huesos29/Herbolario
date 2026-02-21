@@ -440,3 +440,96 @@ footer {
 .ptero-page .sub-seccion li {
     margin-bottom: 10px;
 }
+
+
+/* ===== REPRODUCCIÓN CON ESPACIO PARA IMAGEN ===== */
+
+.ptero-page .reproduccion-contenido {
+    display: flex;
+    gap: 30px;
+    align-items: flex-start;
+    margin-top: 15px;
+}
+
+.ptero-page .reproduccion-texto {
+    flex: 2;
+}
+
+.ptero-page .reproduccion-imagen {
+    flex: 1;
+    min-height: 180px;
+    border: 1px dashed #c2b280;
+    border-radius: 8px;
+    background-color: #fdf8ed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #a59a7a;
+    font-style: italic;
+}
+
+/* Cuando agregues imagen */
+.ptero-page .reproduccion-imagen img {
+    width: 100%;
+    border-radius: 6px;
+    object-fit: cover;
+}
+
+/* ===== MÁS ESPACIO EN REFERENCIAS ===== */
+
+.ptero-page .referencias-box {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+}
+
+/* ===== REFERENCIAS ===== */
+
+.ptero-page .referencias-seccion {
+    margin-top: 25px;
+    margin-bottom: 25px; /* Espacio final */
+}
+
+.ptero-page .btn-referencias {
+    width: 100%;
+    background-color: #e8dfc7;
+    border: none;
+    padding: 12px;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+}
+
+.ptero-page .btn-referencias:hover {
+    background-color: #d9cfb2;
+}
+
+.ptero-page .referencias-box {
+    max-height: 0;
+    overflow: hidden;
+    transition: all 0.4s ease;
+    background-color: #fdf8ed;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: 0 15px;
+}
+
+.ptero-page .referencias-box.activo {
+    max-height: 500px;
+    padding: 15px;
+}
+
+.ptero-page .referencias-box ul {
+    padding-left: 18px;
+    line-height: 1.6;
+}
+
+.ptero-page #flecha {
+    display: inline-block;
+    transition: transform 0.3s ease;
+}
+
+.ptero-page #flecha.rotar {
+    transform: rotate(180deg);
+}
