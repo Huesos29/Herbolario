@@ -354,3 +354,56 @@ footer {
 .objetivo .image-container img {
     max-height: 220px;
 }
+
+
+
+/* ===== ESTILOS EXCLUSIVOS PTERIDOFITAS ===== */
+
+.ptero-page .card {
+    margin: 50px auto;
+    padding: 35px;
+    border-radius: 12px;
+    box-shadow: 4px 6px 18px rgba(0,0,0,0.08);
+}
+
+.ptero-page .card h2 {
+    font-size: 22px;
+    margin-bottom: 20px;
+}
+
+.ptero-page .card ol,
+.ptero-page .card ul {
+    padding-left: 20px;
+    margin-top: 10px;
+}
+
+.ptero-page .card ol li {
+    margin-bottom: 15px;
+    line-height: 1.7;
+}
+
+.ptero-page .card ul li {
+    margin-bottom: 10px;
+    line-height: 1.6;
+}
+
+/* Botón exclusivo referencias */
+.ptero-page .btn-referencias {
+    background: linear-gradient(135deg, #4b5d3a, #6b8e23);
+    border: none;
+    color: #f4ecd8;
+    padding: 10px 18px;
+    border-radius: 30px;
+    font-family: 'Libre Baskerville', serif;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ptero-page .btn-referencias:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(0,0,0,0.2);
+}
